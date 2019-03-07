@@ -1,0 +1,8 @@
+unit Click_RS485_5V_config;
+
+uses Click_RS485_5V_types;
+
+const
+    _RS458_UART_CFG : array[1] of uint32_t = (9600); 
+    
+end.

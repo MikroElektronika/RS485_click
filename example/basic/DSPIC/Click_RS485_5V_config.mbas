@@ -1,0 +1,8 @@
+module Click_RS485_5V_config
+
+include Click_RS485_5V_types
+
+const
+    _RS458_UART_CFG as uint32_t[1] = (9600)
+    
+end.
